@@ -1,0 +1,18 @@
+[
+  {
+    "id": "article-0",
+    "slug": "eco-conception-accessibilite-web",
+    "title": "Éco-Conception et Accessibilité Web",
+    "author": "Rémi Dubrulle",
+    "publication_date": "2024-07-19",
+    "content": "Comment intégrer les principes d'éco-conception tout en assurant une accessibilité optimale pour tous les utilisateurs."
+  },
+  {
+    "id": "article-bis",
+    "slug": "generated-article",
+    "title": "Generated article",
+    "author": "Yourself",
+    "publication_date": "2024-08-08",
+    "content": "well done: you've generated your first static html content ! 🖖"
+  }
+]
