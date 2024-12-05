@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site éco-conçu - low tech</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="img/logo.ico">
+</head>
+<body>
+<header>
+    <table>
+        <tr>
+            <td class="logo">
+                <a href="https://e-responsable.com">
+                    <img src="https://e-responsable.com/logo.png" class="logo" alt="Logo e-responsable"
+                         title="e-responsable, EcoTech Solutions">
+                </a>
+            </td>
+            <td>
+                <h1>Site éco-conçu</h1>
+                <h3>Low tech</h3>
+            </td>
+        </tr>
+    </table>
+
+    <nav>
+        <ul>
+            <li><a href="blog/">Blog</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="content">
+    <section class="item fullmoon" id="{{ item.id }}">
+        <div class="head">
+            <div class="breadcrumb">
+                <a href="blog/{{ item.slug }}.html">/items/{{ item.slug }}
+                    .html</a>
+            </div>
+
+            <h1>{{ item.title }}</h1>
+            <h5>Last update: {{ item.publication_date }} by {{ item.author }}</h5>
+            <h5>Last gen: {{ item.last_generation }}</h5>
+        </div>
+        <div class="content">
+            {{ item.content }}
+        </div>
+    </section>
+</div>
+
+<div class="fullmoon">
+    <section class="hero">
+        <h3>Contact</h3>
+        <p>
+            Coordonnées pour joindre l'équipe e-responsable pour les demandes de renseignements et de devis
+            <br/><br/>
+            <a id="contact" href="mailto:je-suis@e-responsable.com">je-suis@e-responsable.com</a>
+        </p>
+    </section>
+</div>
+
+
+<footer>
+    <a href="https://www.ecoindex.fr/resultat/?id=ae849c42-00b4-4926-aa1e-de20541c9b0a" target="_blank">
+        <img src="https://bff.ecoindex.fr/badge/?theme=dark&url=https://e-responsable.com" alt="Ecoindex Badge"/>
+    </a>
+    <p>Ce site n'utilise aucun cookie et ne track pas les visiteurs.</p>
+    <p>&copy; 2024 e-responsable. Tous droits réservés.</p>
+</footer>
+</body>
+</html>
